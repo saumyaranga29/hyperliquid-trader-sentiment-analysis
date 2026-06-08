@@ -1,0 +1,15 @@
+# Ignore raw dataset files (large files)
+historical_trader_data.csv
+cleaned_merged_data.csv
+fear_greed_index.csv
+
+# Python environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE folders
+.vscode/
+.idea/
+.gemini/
