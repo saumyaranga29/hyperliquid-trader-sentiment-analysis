@@ -7,7 +7,7 @@ from scipy.stats import f_oneway, pearsonr, spearmanr
 def run_eda():
     print("=== STARTING EXPLORATORY DATA ANALYSIS & STATISTICS ===")
     
-    # Load dataset
+    
     input_path = "cleaned_merged_data.csv"
     if not os.path.exists(input_path):
         raise FileNotFoundError(f"Cleaned dataset '{input_path}' not found. Run data_pipeline.py first.")
