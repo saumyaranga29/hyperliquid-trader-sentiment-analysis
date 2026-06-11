@@ -15,7 +15,7 @@ def run_eda():
     df = pd.read_csv(input_path)
     print(f"Loaded {len(df)} trades.")
     
-    # Ensure plots directory exists
+    
     os.makedirs("plots", exist_ok=True)
     
     # 1. Classification Order
