@@ -18,7 +18,7 @@ def run_eda():
     
     os.makedirs("plots", exist_ok=True)
     
-    # 1. Classification Order
+    
     sentiment_order = ['Extreme Fear', 'Fear', 'Neutral', 'Greed', 'Extreme Greed']
     
     # Filter to only rows with non-null classification
