@@ -21,7 +21,6 @@ def run_eda():
     
     sentiment_order = ['Extreme Fear', 'Fear', 'Neutral', 'Greed', 'Extreme Greed']
     
-    # Filter to only rows with non-null classification
     df_clean = df.dropna(subset=['classification']).copy()
     
     # 2. General Statistics by Sentiment
