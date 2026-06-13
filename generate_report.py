@@ -17,7 +17,7 @@ def compile_report():
     workspace_dir = r"c:\Users\Saumya Ranga\OneDrive - UPES\Desktop\primetrade"
     artifact_dir = r"C:\Users\Saumya Ranga\.gemini\antigravity-ide\brain\615ea503-12fd-4a78-ac64-4483f1813617"
     
-    # 1. Copy plots to the artifact directory
+   
     src_plots_dir = os.path.join(workspace_dir, "plots")
     dest_plots_dir = os.path.join(artifact_dir, "plots")
     
@@ -44,7 +44,7 @@ def compile_report():
         else:
             print(f"  Warning: {filename} not found in workspace plots directory.")
             
-    # Load statistical results for text compilation
+    
     sentiment_stats_csv = os.path.join(src_plots_dir, "sentiment_stats.csv")
     anova_txt = os.path.join(src_plots_dir, "anova_result.txt")
     corr_csv = os.path.join(src_plots_dir, "daily_correlations.csv")
